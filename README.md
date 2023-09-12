@@ -11,9 +11,9 @@ We have learned from a series of A/B experiments that short video are more susce
 tend to cause some level of degradation to the video quality. Longer videos lead to longer file sizes and exhibit higher sensitivity to publish time, any methods that 
 could help reduce the file size in form of higher compression even at the expense of trading few points of VMAF,VQScore Video Quality is acceptable.
 
-##Encoding with Network Speed Calibration
+## Encoding with Network Speed Calibration
 To this effect we investigated an algorithm that dynamically detect upload speed as we observed that some of the regions with poor network conditions and poor quality hardware phones have issues with video creation as well as video viewing.
 
-##Dynamic Encoding with Saliency Mask
+## Dynamic Encoding with Saliency Mask
 We also implemented ways to be able to selectively alter the bitrate based on saliency mask, a concept in computer vision 
 where in the face and prominent features are provided higher bitrate than the background and less relevant aspects of the video, a dynamic approach to encoding based on video content.
